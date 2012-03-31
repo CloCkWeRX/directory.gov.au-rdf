@@ -1,0 +1,8 @@
+See http://data.gov.au/dataset/directory-gov-au-full-data-export/
+
+Usage
+    wget http://data.gov.au/bye?http://datasets.data.gov.au/directoryexport.xml
+    xsltproc directoryexport.xsl directoryexport.xml > foaf.rdf
+
+ 
+
